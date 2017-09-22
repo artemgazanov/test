@@ -1,4 +1,0 @@
-1. mkdir first; cd first; touch date_{a..e}
-2. for file in $(find . -name"date_*"); do date > $file; done
-3. greb -or 2017| wc-l
-4. rm -rf first/
